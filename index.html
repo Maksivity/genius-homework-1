@@ -1,42 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty zone</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
       <!-- Logo -->
       <nav>
-        <a href="/genius-homework-1/index.html">Beauty zone</a>
+        <a class="logo" href="index.html">Beauty zone</a>
       </nav>
       <ul>
-        <li><a href="#">Про нас</a></li>
-        <li><a href="#">Чому ми</a></li>
-        <li><a href="#">наші процедури</a></li>
-        <li><a href="#">Контакти</a></li>
+        <li><a class="link" href="#">Про нас</a></li>
+        <li><a class="link" href="#">Чому ми</a></li>
+        <li><a class="link" href="#">наші процедури</a></li>
+        <li><a class="link" href="#">Контакти</a></li>
       </ul>
       <!-- Phone button icon -->
-      <button>Замовити дзвінок</button>
+      <a href="#"></a>
       <!-- facebook button icon -->
       <a href="#"></a>
       <!-- Instagram button icon -->
+      <a href="#"></a>
     </header>
     <main>
       <section id="Beauty-zone-section">
         <p>Косметологічна клініка</p>
-        <h1>Beauty zone</h1>
-        <a href="#">Замовити дзвінок</a>
-        <p>Запишись та отримай безкоштвону консультацію нашого косметолога</p>
+        <h1 class="main-head">Beauty zone</h1>
+        <button class="button">Замовити дзвінок</button>
+        <p class="secondary-text">
+          Запишись та отримай безкоштовну консультацію нашого косметолога
+        </p>
       </section>
       <section id="transform-beauty-zone">
-        <h2>Перевтілюйтесь в <span>beauty zone!</span></h2>
+        <h2 class="headlines">Перевтілюйтесь в <span>beauty zone!</span></h2>
         <p>
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла
         </p>
-        <p>
+        <p class="headlines-paragraph">
           B <span>beauty zone</span> ми гарантуємо найвищі стандарти якості та
           приємний сервіс. Наші косметологічні процедури та препарати допоможуть
           вам підтримувати свою красу та молодість. З нами краса назавжди!
@@ -45,29 +50,84 @@
         <img src="images/Mask groupwoman-after.jpg" alt="Після процедури" />
       </section>
       <section id="why-us">
-        <h2>Чому люди <span>обирають нас</span></h2>
-        <ul>
-          <img
-            src="images/medicinecosmeticsbottletreatment_109776 1logo_profi_equipment.svg"
-            alt="лого наші косметологи"
-          />
-          <li>
-            Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5
-            років
-          </li>
-          <img src="" alt="лого проф обладнання" />
-          <li>
-            Використовуємо тільки професійне обладнання та косметику, перевірену
-            часом
-          </li>
-          <img src="" alt="лого наша мета" />
-          <li>
-            Наша мета - підкреслити переваги та приховати недоліки, а не
-            переробити
-          </li>
-        </ul>
+        <h2 class="headlines-center">Чому люди <span>обирають нас</span></h2>
+        <img
+          src="images/game-icons_materials-science.svg"
+          alt="Лого всі наші косметологи"
+        />
+        <h3>
+          Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5
+          років
+        </h3>
+        <img
+          src="images/medicinecosmeticsbottletreatment_109776 1logo_profi_equipment.svg"
+          alt="Лого обладнання"
+        />
+        <h3>
+          Використовуємо тільки професійне обладнання та косметику, перевірену
+          часом
+        </h3>
+        <img src="images/ph_crown-light.svg" alt="Лого наша мета" />
+        <h3>
+          Наша мета - підкреслити переваги та приховати недоліки, а не
+          переробити
+        </h3>
+      </section>
+      <section id="our-procedures">
+        <h2 class="headlines-center">Наші <span>процедури</span></h2>
+        <article>
+          <h3>Маски для обличчя</h3>
+        </article>
+        <article>
+          <h3>Ін'єкції для обличчя</h3>
+        </article>
+        <article>
+          <h3>Очищення обличчя</h3>
+        </article>
+      </section>
+      <section id="how-to-find-us">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9400613933917!2d30.5181289!3d50.4422171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C70YzQstCw0YAg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LAsIDUsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1732898118361!5m2!1suk!2sua"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <h2 class="headlines-center">
+          Запишіться <span>безкоштовно</span> та отримайте подарунок
+        </h2>
+        <button>Записатись безкоштовно</button>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <!-- logo -->
+      <ul>
+        <li><a href="#">Про нас</a></li>
+        <li><a href="#">Чому ми</a></li>
+        <li><a href="#">Наші процедури</a></li>
+        <li><a href="#">Контакти</a></li>
+      </ul>
+      <address>
+        <ul>
+          <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
+          <li>
+            <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
+          </li>
+          <li>
+            <a href="https://g.co/kgs/VyraxvJ"
+              >Україна, м. Київ, вул. Тараса Шевченка 5</a
+            >
+          </li>
+          <!-- tel logo -->
+          <!--  facebook logo -->
+          <!-- inst logo -->
+        </ul>
+        <a href="#">Політика конфіденційності</a>
+      </address>
+
+      <p class="secondary-text">&copy;Дані захищені</p>
+    </footer>
   </body>
 </html>
