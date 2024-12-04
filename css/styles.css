@@ -62,7 +62,7 @@ body {
 /* Logo button*/
 .logo {
     text-decoration: none;
-    color: var(--color-brand-dark);
+    color: var(--color-brand-light);
 }
 /* link */
 .link {
@@ -76,7 +76,8 @@ body {
 }
 /* Main head */
 .main-head {
-    font-size: 64px;
+    line-height: 1,2;
+    font-size: 140px;
     font-family: 'Play', sans-serif;
     font-weight: 700;
     color: var(--color-brand-light);
@@ -87,15 +88,21 @@ body {
     color: var(--color-primary-light);
     background-color: var(--color-brand-light);
     cursor: pointer;
+    font-weight: 600;
 }
 .button:hover {
     color: var(--color-brand-dark);
     background-color: transparent;
+    font-weight: 600;
 }
 
 /* Secondary text */
 .secondary-text {
+    font-size: 12px;
     color: var(--color-seconary-dark);
+}
+.secondary-text span {
+    text-decoration: underline;
 }
 /* Headlines */
 .headlines {
@@ -113,6 +120,8 @@ color: var(--color-brand-light);
 }
 
 .headlines-center { 
+    font-size: 64px;
+    font-weight: 700;
     color: var(--color-brand-dark);
     text-align: center;   
 }
@@ -121,4 +130,22 @@ color: var(--color-brand-light);
     
     font-weight: 600;
     text-transform: capitalize;
+}
+
+.our-procedures-list {
+    font-size: 22px;
+    color: var(--color-primary-light);
+}
+/* Sign up end */
+.sign-up-end {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--color-primary-light);
+}
+.sign-up-end span {
+    color: var(--color-brand-light);
+}
+/* Maps */
+.maps {
+    border-radius: 32px;
 }
