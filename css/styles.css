@@ -61,6 +61,8 @@ body {
 
 /* Logo button*/
 .logo {
+    font-size: 22px;
+    font-weight: 700;
     text-decoration: none;
     color: var(--color-brand-light);
 }
