@@ -150,7 +150,7 @@ color: var(--color-brand-light);
     color: var(--color-primary-light);
 }
 /* Sign up end */
-.sign-up-end {
+#sign-up-end {
 background-color: var(--color-brand-dark);
 }
 
