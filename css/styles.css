@@ -95,6 +95,17 @@ body {
     background-color: transparent;
     font-weight: 600;
 }
+.button-end {
+    color: var(--color-primary-light);
+        background-color: var(--color-brand-light);
+        cursor: pointer;
+        font-weight: 600;
+}
+.button-end:hover {
+    color: var(--color-brand-dark);
+    background-color: var(--color-primary-light);
+    font-weight: 600;
+}
 
 /* Secondary text */
 .secondary-text {
@@ -138,14 +149,34 @@ color: var(--color-brand-light);
 }
 /* Sign up end */
 .sign-up-end {
+background-color: var(--color-brand-dark);
+}
+
+.sign-up-end-title {
     font-size: 22px;
     font-weight: 600;
     color: var(--color-primary-light);
+    background-color: var(--color-brand-dark);
 }
-.sign-up-end span {
+.sign-up-end-title span {
     color: var(--color-brand-light);
 }
 /* Maps */
 .maps {
     border-radius: 32px;
+}
+/* Footer */
+.footer { 
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--color-primary-light);
+}
+.footer:hover {
+    color: var(--color-brand-light);
+        cursor: pointer;
+}
+
+footer {
+    
+    background-color: var(--color-brand-dark);
 }
